@@ -1,9 +1,11 @@
 ﻿using DataLayer.Entities;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
+using System.Configuration;
 
 namespace DataLayer
 {
-    public class VkApiContext : DbContext, ICloneable
+    public class VkApiContext : DbContext
     {
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<UserGroup> UserGroups { get; set; } = null!;
@@ -15,7 +17,6 @@ namespace DataLayer
         public VkApiContext()
         {
             Database.EnsureCreated();
-            //viewName = "View_UserFullInfo";
             Database.ExecuteSqlRaw($@"DROP VIEW IF EXISTS public.{viewName};
                                         CREATE VIEW {viewName} AS
                                         SELECT u.id AS ""Id"", u.login AS ""Login"", u.password AS ""Password"", 
@@ -46,11 +47,6 @@ namespace DataLayer
                 user.Property("UserStateCode").HasColumnName("State");
                 user.Property("UserGroupCode").HasColumnName("User Group");
             }); // Привязка прдеставления в БД к UserWithFullInfo
-        }
-
-        public object Clone()
-        {
-            return new VkApiContext();
         }
     }
 }

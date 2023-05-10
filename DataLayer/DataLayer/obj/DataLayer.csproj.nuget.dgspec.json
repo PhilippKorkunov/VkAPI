@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Vk\\DataLayer\\DataLayer\\DataLayer.csproj": {}
+    "D:\\Vk\\VkAPI\\DataLayer\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "D:\\Vk\\DataLayer\\DataLayer\\DataLayer.csproj": {
+    "D:\\Vk\\VkAPI\\DataLayer\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vk\\DataLayer\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "D:\\Vk\\VkAPI\\DataLayer\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "D:\\Vk\\DataLayer\\DataLayer\\DataLayer.csproj",
+        "projectPath": "D:\\Vk\\VkAPI\\DataLayer\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\Philipp\\.nuget\\packages\\",
-        "outputPath": "D:\\Vk\\DataLayer\\DataLayer\\obj\\",
+        "outputPath": "D:\\Vk\\VkAPI\\DataLayer\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -54,6 +54,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

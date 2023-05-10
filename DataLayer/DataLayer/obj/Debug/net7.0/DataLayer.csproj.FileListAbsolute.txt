@@ -26,3 +26,17 @@ D:\DataLayer\DataLayer\obj\Debug\net7.0\refint\DataLayer.dll
 D:\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.pdb
 D:\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.genruntimeconfig.cache
 D:\DataLayer\DataLayer\obj\Debug\net7.0\ref\DataLayer.dll
+D:\Vk\VkAPI\DataLayer\DataLayer\bin\Debug\net7.0\DataLayer.deps.json
+D:\Vk\VkAPI\DataLayer\DataLayer\bin\Debug\net7.0\DataLayer.runtimeconfig.json
+D:\Vk\VkAPI\DataLayer\DataLayer\bin\Debug\net7.0\DataLayer.dll
+D:\Vk\VkAPI\DataLayer\DataLayer\bin\Debug\net7.0\DataLayer.pdb
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.csproj.AssemblyReference.cache
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.AssemblyInfoInputs.cache
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.AssemblyInfo.cs
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.dll
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\refint\DataLayer.dll
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.pdb
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\DataLayer.genruntimeconfig.cache
+D:\Vk\VkAPI\DataLayer\DataLayer\obj\Debug\net7.0\ref\DataLayer.dll
