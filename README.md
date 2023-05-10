@@ -9,3 +9,11 @@
     - В папке VkApi/DataBase содержится бэкап базы данных
     - В папке Handler реализован Basic Authentication Handler
     - В папке ModelViews содержится представление для отправки в json полной информации о пользователе 
+
+
+Пример json для добавления пользователя:
+{
+    "login": "login",
+    "password": "pswd",
+    "userGroupCode": "User"
+}
